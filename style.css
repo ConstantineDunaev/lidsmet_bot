@@ -1,0 +1,177 @@
+h1 {
+    color: black;
+	text-align: center;
+}
+h2 {
+    color: black;
+	text-align: center;
+}
+html, body {
+  height: 98%;
+  background: #E0FFFF;
+}
+.grid {
+	height:93%;
+	width:100%;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	border-radius: 1vh;
+}
+::-webkit-input-placeholder {color:#3f3f44; padding-left: 10px;} 
+::-moz-placeholder          {color:#3f3f44; padding-left: 10px;} 
+:-moz-placeholder           {color:#3f3f44; padding-left: 10px;} 
+:-ms-input-placeholder      {color:#3f3f44; padding-left: 10px;} 
+
+.scroll-table-body {
+	height: 96%;
+	overflow-x: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+.task_table {
+	width:100%;
+	height:92%;
+	table-layout: fixed;
+	border: none;
+}
+
+th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.scroll-table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+.manager {
+	text-align: center;
+	width: 5%;
+	height: 10px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.email {
+	text-align: center;
+	width: 5%;
+	height: 10px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.total {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+.in_work {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.not_actual {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.send_kp {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.send_check {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.spam {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.created {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.buring {
+	text-align: center;
+	width: 5%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+
+
+/* Стили для скролла */
+::-webkit-scrollbar {
+	width: 6px;
+} 
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
